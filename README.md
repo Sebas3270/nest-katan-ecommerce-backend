@@ -21,7 +21,11 @@ npm install
 ```
 docker-compose up -d
 ```
-6. Run the project
+6. Execute seed to fill the postgres database
+```
+http://localhost:3000/api/seed
+```
+7. Run the project
 ```
 npm run start:dev
 ```
